@@ -6,12 +6,6 @@ A responsive café website for **SK Cafe** (Coimbatore, Tamil Nadu), built as an
 
 WEBSITE LIVE LINK:https://skcafe.vercel.app/#/book
 
-## How to run
-
-1. Open `sk-cafe.html` in any modern browser (Chrome, Edge, Firefox, Safari).
-2. No installation or server is needed.
-3. An internet connection is required for fonts, icons and the Google Map.
-
 ## Pages (hash routes)
 
 | Page | Route |
