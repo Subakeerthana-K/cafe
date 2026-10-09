@@ -1,0 +1,20 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>SK Cafe | Coffee, Snacks & Cozy Moments</title>
+   <style>html,body{margin:0;height:100%}iframe{border:0;display:block;width:100%;height:100%}</style>
+   </head>
+   <body>
+   <script src="sk-cafe-connector.js"></script>
+   <script>
+     var frame = document.createElement('iframe');
+     frame.id = 'app';
+     frame.title = 'SK Cafe';
+     frame.addEventListener('load', function () { SKConnect(frame.contentWindow); });
+     frame.src = 'sk-cafe.html';
+     document.body.appendChild(frame);
+   </script>
+   </body>
+   </html>
