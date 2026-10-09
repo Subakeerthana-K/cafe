@@ -30,7 +30,7 @@ sk-cafe-connector.js  Sends booking data to Google Apps Script
 
 ```
 Visitor books a table -> connector sends the data -> Google Apps Script
--> saves a row in Google Sheets -> emails the owner
+-> saves a row in Google Sheets -> emails the owner.
 ```
 
 ## Setup
